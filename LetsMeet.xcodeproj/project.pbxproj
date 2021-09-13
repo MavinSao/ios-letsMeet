@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02FAA2B77A403E6A52DFE764 /* Pods_LetsMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3279D5DEEB734A40045249 /* Pods_LetsMeet.framework */; };
 		84E8545B26EDA974000E82E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8545A26EDA974000E82E6 /* AppDelegate.swift */; };
 		84E8545D26EDA974000E82E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8545C26EDA974000E82E6 /* SceneDelegate.swift */; };
-		84E8545F26EDA974000E82E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8545E26EDA974000E82E6 /* ViewController.swift */; };
 		84E8546226EDA974000E82E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8546026EDA974000E82E6 /* Main.storyboard */; };
 		84E8546426EDA975000E82E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8546326EDA975000E82E6 /* Assets.xcassets */; };
 		84E8546726EDA975000E82E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8546526EDA975000E82E6 /* LaunchScreen.storyboard */; };
+		84E8546F26EDADB7000E82E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E8546E26EDADB7000E82E6 /* GoogleService-Info.plist */; };
+		84E8547126EDD097000E82E6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8547026EDD097000E82E6 /* WelcomeViewController.swift */; };
+		84E8547326EDD0A8000E82E6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8547226EDD0A8000E82E6 /* RegisterViewController.swift */; };
+		84E8547526EDEC02000E82E6 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8547426EDEC02000E82E6 /* FUser.swift */; };
+		84E8547826EE0D34000E82E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8547726EE0D34000E82E6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3279D5DEEB734A40045249 /* Pods_LetsMeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsMeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8545726EDA974000E82E6 /* LetsMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8545A26EDA974000E82E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E8545C26EDA974000E82E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84E8545E26EDA974000E82E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84E8546126EDA974000E82E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E8546326EDA975000E82E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E8546626EDA975000E82E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E8546826EDA975000E82E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E8546E26EDADB7000E82E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84E8547026EDD097000E82E6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		84E8547226EDD0A8000E82E6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		84E8547426EDEC02000E82E6 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		84E8547626EDF7A4000E82E6 /* LetsMeetRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetsMeetRelease.entitlements; sourceTree = "<group>"; };
+		84E8547726EE0D34000E82E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B30B31683A7B060807C2189F /* Pods-LetsMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsMeet.release.xcconfig"; path = "Target Support Files/Pods-LetsMeet/Pods-LetsMeet.release.xcconfig"; sourceTree = "<group>"; };
+		CB723768E50F03C0C9CADC5A /* Pods-LetsMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsMeet.debug.xcconfig"; path = "Target Support Files/Pods-LetsMeet/Pods-LetsMeet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FAA2B77A403E6A52DFE764 /* Pods_LetsMeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D61B4D34055E9A687F9C8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C3279D5DEEB734A40045249 /* Pods_LetsMeet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84E8544E26EDA974000E82E6 = {
 			isa = PBXGroup;
 			children = (
 				84E8545926EDA974000E82E6 /* LetsMeet */,
 				84E8545826EDA974000E82E6 /* Products */,
+				D6DA4AFB0B7A757EAD001D3A /* Pods */,
+				3D61B4D34055E9A687F9C8EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,29 @@
 		84E8545926EDA974000E82E6 /* LetsMeet */ = {
 			isa = PBXGroup;
 			children = (
+				84E8547626EDF7A4000E82E6 /* LetsMeetRelease.entitlements */,
 				84E8545A26EDA974000E82E6 /* AppDelegate.swift */,
 				84E8545C26EDA974000E82E6 /* SceneDelegate.swift */,
-				84E8545E26EDA974000E82E6 /* ViewController.swift */,
+				84E8547026EDD097000E82E6 /* WelcomeViewController.swift */,
+				84E8547226EDD0A8000E82E6 /* RegisterViewController.swift */,
+				84E8547426EDEC02000E82E6 /* FUser.swift */,
+				84E8547726EE0D34000E82E6 /* Constants.swift */,
 				84E8546026EDA974000E82E6 /* Main.storyboard */,
 				84E8546326EDA975000E82E6 /* Assets.xcassets */,
 				84E8546526EDA975000E82E6 /* LaunchScreen.storyboard */,
 				84E8546826EDA975000E82E6 /* Info.plist */,
+				84E8546E26EDADB7000E82E6 /* GoogleService-Info.plist */,
 			);
 			path = LetsMeet;
+			sourceTree = "<group>";
+		};
+		D6DA4AFB0B7A757EAD001D3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB723768E50F03C0C9CADC5A /* Pods-LetsMeet.debug.xcconfig */,
+				B30B31683A7B060807C2189F /* Pods-LetsMeet.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E8546B26EDA975000E82E6 /* Build configuration list for PBXNativeTarget "LetsMeet" */;
 			buildPhases = (
+				5939BF9321D4C8220038BAA2 /* [CP] Check Pods Manifest.lock */,
 				84E8545326EDA974000E82E6 /* Sources */,
 				84E8545426EDA974000E82E6 /* Frameworks */,
 				84E8545526EDA974000E82E6 /* Resources */,
+				703360072FB22B7AD27D79E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E8546726EDA975000E82E6 /* LaunchScreen.storyboard in Resources */,
+				84E8546F26EDADB7000E82E6 /* GoogleService-Info.plist in Resources */,
 				84E8546426EDA975000E82E6 /* Assets.xcassets in Resources */,
 				84E8546226EDA974000E82E6 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +173,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5939BF9321D4C8220038BAA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsMeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703360072FB22B7AD27D79E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsMeet/Pods-LetsMeet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsMeet/Pods-LetsMeet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsMeet/Pods-LetsMeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E8545326EDA974000E82E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E8545F26EDA974000E82E6 /* ViewController.swift in Sources */,
+				84E8547526EDEC02000E82E6 /* FUser.swift in Sources */,
+				84E8547126EDD097000E82E6 /* WelcomeViewController.swift in Sources */,
 				84E8545B26EDA974000E82E6 /* AppDelegate.swift in Sources */,
 				84E8545D26EDA974000E82E6 /* SceneDelegate.swift in Sources */,
+				84E8547326EDD0A8000E82E6 /* RegisterViewController.swift in Sources */,
+				84E8547826EE0D34000E82E6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +369,7 @@
 		};
 		84E8546C26EDA975000E82E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB723768E50F03C0C9CADC5A /* Pods-LetsMeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,9 +389,11 @@
 		};
 		84E8546D26EDA975000E82E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30B31683A7B060807C2189F /* Pods-LetsMeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LetsMeet/LetsMeetRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UVTA4V7W4B;
 				INFOPLIST_FILE = LetsMeet/Info.plist;
